@@ -2,11 +2,11 @@ import express from 'express';
 import path from 'path';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import seedRouter from './routes/seedRoutes.js';
-import productRouter from './routes/productRoutes.js';
-import userRouter from './routes/userRoutes.js';
-import orderRouter from './routes/orderRoutes.js';
-import uploadRouter from './routes/uploadRoutes.js';
+import seedRouter from './controller/seedRoutes.js';
+import productRouter from './controller/productRoutes.js';
+import userRouter from './controller/userRoutes.js';
+import orderRouter from './controller/orderRoutes.js';
+import uploadRouter from './controller/uploadRoutes.js';
 
 dotenv.config();
 
